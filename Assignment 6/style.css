@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    padding: 20px;
+    background-color: #122436;
+    margin-bottom: 20px;
+}
+.header1{
+    color: #ffffff;
+    padding: 20px;
+}
+.header2{
+    text-align: center;
+    background-color: #ff8d5d;
+    height: 190px;
+    margin-top: 20px;
+}
+.mastering{
+    margin-top: 2px;
+    color: #ffffff;
+}
+.Welcome{
+    color: #ffffff;
+    padding: 20px;    
+}
+.get{
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    background-color:  #ff8d5d;
+    margin-top: 20px;
+    color: #ffffff;
+    border-color: azure;
+}
+.header3{
+    text-align: center;
+    margin-top: 30px;
+}
+.About{
+    margin-bottom: 10px;
+}
+.Lorem{
+    margin-right: 450px;
+    margin-left: 450px;
+    width: 450px;
+    padding: 20px;
+    border-bottom: #122436;
+    border-left: #122436;
+    border-right: #122436;
+    border-top: 4px solid #0077b6;
+}
+.taxtify{
+
+    color: palevioletred;
+}
+.Good{
+    color: purple;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-bottom: #122436;
+    border-left: 4px solid purple;
+    border-right: #122436;
+    border-top: #0077b6;
+    height: 60px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    width: 450px;
+}
+.service{
+    /* text-align: center; */
+    margin-top: 30px;
+    height: 260px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: #f5f5f5;
+}
+.Our{
+    margin-top: 30px;
+    color: #0077b6;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.demo1{
+    height: 30px;
+    border-left: 3px solid #0077b6;
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+     margin-top: 20px;
+}
+.demo2{
+    height: 30px;
+    border-left: 3px solid #0077b6;
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+     margin-top: 20px;
+}
+.demo3{
+    height: 30px;
+    border-left: 3px solid #0077b6;
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+     margin-top: 20px;
+}
+.demo4{
+    height: 30px;
+    border-left: 3px solid #0077b6;
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.content{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.action{
+    background-color: #f5f5f5; 
+    /* text-align: center;   */
+    margin-left: 450px;
+    margin-right: 600px;
+padding: 20px;
+    height: 350px;
+}
+.name{
+    height: 30px;
+    width: 290px;
+    margin-left: 20px;
+    margin-right: 20px;
+     margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.demo{
+     height: 30px;
+    width: 290px;
+    margin-left: 20px;
+    margin-right: 20px;
+     margin-bottom: 10px;
+      margin-top: 20px;
+    padding: 20px;
+
+}
+.Name{
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.Email{
+    margin-left: 20px;
+     margin-bottom: 10px;
+    margin-top: 20px;
+}
+.id{
+     height: 60px;
+    width: 290px;
+    margin-left: 20px;
+    margin-right: 20px;
+     margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Message{
+     margin-left: 20px;
+      margin-bottom: 10px;
+    margin-top: 20px;
+}
+.Send{
+    background-color:blue;
+    color: azure;
+    height: 30px;
+    width: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sit{
+    background-color: #122436;
+    color: #ffffff;
+    height: 120px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.ipsum{
+    height: 70px;
+    width: 800px;
+    margin-left: 200px;
+    border-bottom: #122436;
+    border-left: 4px solid rgb(255, 255, 255);
+    border-right: #122436;
+    border-top: #0077b6;
+    padding: 20px;
+}
+.dolor{
+    background-color: #122436;
+    text-align: center;
+    height: 40px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+
+
+
