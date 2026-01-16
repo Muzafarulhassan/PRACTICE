@@ -142,39 +142,39 @@ console.log("the value of result is ",result)
         // }
 // else if
 
- var days=parseInt(prompt("enter week number"))
-        if(days==1){
-                console.log("monday")
-        }else if(days==2){
-         console.log("tuesday")       
-        }else if(days==3){
-         console.log("thursday")       
-        }else if(days==4){
-         console.log("friday")       
-        }else if(days==5){
-         console.log("saturday")       
-        }else if(days==6){
-         console.log("sunday")       
-        }
-        else{
-                console.log("invalid week number ",days)
-        }
+//  var days=parseInt(prompt("enter week number"))
+//         if(days==1){
+//                 console.log("monday")
+//         }else if(days==2){
+//          console.log("tuesday")       
+//         }else if(days==3){
+//          console.log("thursday")       
+//         }else if(days==4){
+//          console.log("friday")       
+//         }else if(days==5){
+//          console.log("saturday")       
+//         }else if(days==6){
+//          console.log("sunday")       
+//         }
+//         else{
+//                 console.log("invalid week number ",days)
+//         }
 
 
-        var userMarks=parseInt(prompt("enter ur marks"))
-        if(userMarks>=80){
-                console.log("A+ grade")
-        }else if(userMarks>=70){
-                console.log("A grade ")
-        }else if(userMarks>=60){
-                console.log("B grade ")
-        }else if(userMarks>=50){
-                console.log("C grade ")
-        }else if(userMarks>=40){
-                console.log("D grade ")
-        }else{
-                console.log(" you are fail because ur number is less then 40",userMarks)
-        }
+        // var userMarks=parseInt(prompt("enter ur marks"))
+        // if(userMarks>=80){
+        //         console.log("A+ grade")
+        // }else if(userMarks>=70){
+        //         console.log("A grade ")
+        // }else if(userMarks>=60){
+        //         console.log("B grade ")
+        // }else if(userMarks>=50){
+        //         console.log("C grade ")
+        // }else if(userMarks>=40){
+        //         console.log("D grade ")
+        // }else{
+        //         console.log(" you are fail because ur number is less then 40",userMarks)
+        // }
         
 
         // let number=56
@@ -215,13 +215,23 @@ switch(weekNumber){
 /// 3. for loop
 
 //while loop
-var i=1;
-while(i<=5){
-console.log("the value of i in while loop ",i)
-i++
-}  
+// var i=1;
+// while(i<=5){
+// console.log("the value of i in while loop ",i) 
+// i++
+// }  
 
 // do while loop 
+// let i = 0;
+
+// do {
+//     console.log(i);
+//     i++;
+// } while (i <=5 );
+
+
+
+// for loop
 
 
          
