@@ -116,34 +116,34 @@ console.log("the value of isRainig",isRainig)
 //     console.log("is not valid weeks")
 // }
 //Switch
-let weekNumber=parseInt(prompt("enter week number"))
+// let weekNumber=parseInt(prompt("enter week number"))
 
-switch(weekNumber){
-    case 1:
-        console.log(" Today is monday")
-    break;
-       case 2:
-        console.log(" Today is tuesday")
-    break
-    case 3:
-        console.log(" Today is wednesday")
-    break
-    case 4:
-        console.log(" Today is thirsday")
-    break
-    case 5:
-        console.log(" Today is friday")
-    break
-    case 6:
-        console.log(" Today is saturday")
-    break
-    case 7:
-        console.log(" Today is sunday")
-    break
+// switch(weekNumber){
+//     case 1:
+//         console.log(" Today is monday")
+//     break;
+//        case 2:
+//         console.log(" Today is tuesday")
+//     break
+//     case 3:
+//         console.log(" Today is wednesday")
+//     break
+//     case 4:
+//         console.log(" Today is thirsday")
+//     break
+//     case 5:
+//         console.log(" Today is friday")
+//     break
+//     case 6:
+//         console.log(" Today is saturday")
+//     break
+//     case 7:
+//         console.log(" Today is sunday")
+//     break
 
-    default:
-        week="is not valid week number "
-}
+//     default:
+//         week="is not valid week number "
+// }
 //loop 
 //1.while loop
 //2.do while loop
@@ -161,12 +161,38 @@ do{
 console.log(i)
 i++
 }while(i<=5)
+//3.for loop
+for(i=0;i<=5;i++){
+    console.log("the value of for loop",i)
+    if (i==3){
+        console.log("is value",i)
+    }
+else if(i==5){
+console.log("the value of i",i)
+}
+}    
 
+//Array
 
+var city0="Karachi"
+var city1="Lahore"
+var city2="Islamabad"
+var city3="Quetta"
+var city4="Peshawar"
+var city5="Faisalabad"
+ var citiesName=["Karachi","Lahore","Islamabad","Quetta","Peshawar","Faisalabad"]
+    console.log("first name", citiesName[0])
+    console.log("first name", citiesName[1])
+    console.log("first name", citiesName[2])
+    console.log("first name", citiesName[3])
+    console.log("first name", citiesName[4])
+    console.log("first name", citiesName[5])
 
-
-
-
+    var num=[10,20,30]
+console.log("num",num)
+console.log("num[0]" ,num[0])
+console.log("num[1]" ,num[1])
+console.log("num[2]" ,num[2])
 
 
 
