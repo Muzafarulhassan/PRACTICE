@@ -95,61 +95,61 @@ console.log("the value of isPassed",isPassed)
 var isRainig=!true
 console.log("the value of isRainig",isRainig)
 
-//if eles
-// var weeks=parseInt(prompt("enter weeks number"))
-//  if (weeks==1){
-// console.log("is Monday") 
-//  }else if(weeks==2){
-// console.log("is Tuesday") 
-//  }else if(weeks==3){
-// console.log("is Wednesday") 
-//  }else if(weeks==4){
-// console.log("is Thirsdat") 
-//  }else if(weeks==5){
-// console.log("is Friday") 
-//  }else if(weeks==6){
-// console.log("is Saturday") 
-//  }else if(weeks==7){
-// console.log("is Sunday") 
-//  }
-// else{
-//     console.log("is not valid weeks")
-// }
-//Switch
-// let weekNumber=parseInt(prompt("enter week number"))
+// if eles
+var weeks=parseInt(prompt("enter weeks number"))
+ if (weeks==1){
+console.log("is Monday") 
+ }else if(weeks==2){
+console.log("is Tuesday") 
+ }else if(weeks==3){
+console.log("is Wednesday") 
+ }else if(weeks==4){
+console.log("is Thirsdat") 
+ }else if(weeks==5){
+console.log("is Friday") 
+ }else if(weeks==6){
+console.log("is Saturday") 
+ }else if(weeks==7){
+console.log("is Sunday") 
+ }
+else{
+    console.log("is not valid weeks")
+}
+Switch
+let weekNumber=parseInt(prompt("enter week number"))
 
-// switch(weekNumber){
-//     case 1:
-//         console.log(" Today is monday")
-//     break;
-//        case 2:
-//         console.log(" Today is tuesday")
-//     break
-//     case 3:
-//         console.log(" Today is wednesday")
-//     break
-//     case 4:
-//         console.log(" Today is thirsday")
-//     break
-//     case 5:
-//         console.log(" Today is friday")
-//     break
-//     case 6:
-//         console.log(" Today is saturday")
-//     break
-//     case 7:
-//         console.log(" Today is sunday")
-//     break
+switch(weekNumber){
+    case 1:
+        console.log(" Today is monday")
+    break;
+       case 2:
+        console.log(" Today is tuesday")
+    break
+    case 3:
+        console.log(" Today is wednesday")
+    break
+    case 4:
+        console.log(" Today is thirsday")
+    break
+    case 5:
+        console.log(" Today is friday")
+    break
+    case 6:
+        console.log(" Today is saturday")
+    break
+    case 7:
+        console.log(" Today is sunday")
+    break
 
-//     default:
-//         week="is not valid week number "
-// }
+    default:
+        week="is not valid week number "
+}
 //loop 
 //1.while loop
 //2.do while loop
 //3.for loop
 
-//1.while loop
+// 1.while loop
 var i=1
 while(i<=5){
     console.log("the value of i in while loop",i)
@@ -170,7 +170,7 @@ for(i=0;i<=5;i++){
 else if(i==5){
 console.log("the value of i",i)
 }
-}    
+}
 
 //Array
 
@@ -193,6 +193,17 @@ console.log("num",num)
 console.log("num[0]" ,num[0])
 console.log("num[1]" ,num[1])
 console.log("num[2]" ,num[2])
+
+
+var cities = [];
+
+for( var i =0;i < 3;i++){
+cities[i]=prompt("enter cities name")
+}
+for( var i=0;i<cities.length;i++){
+    console.log(cities[i])
+}
+
 
 
 

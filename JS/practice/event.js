@@ -284,6 +284,33 @@
 // console.log("num[1]",num[1])
 // console.log("num[2]",num[2])
 
+// var citiesName=["Karachi",
+//         "Lahore" ,
+//         "Islamabad",
+//           "pish",
+//         "Quetta"] 
+
+
+//  var cities = [];
+
+// for (var i = 0; i < 3; i++) {
+//     cities[i] = prompt("Enter city name");
+// }
+
+// for (var i = 0; i < cities.length; i++) {
+//     console.log(cities[i]);
+// }
+
+// var studentName = [];
+//  for (var i = 0; i < 5; i++) {
+//   studentName[i] = prompt("Enter student name " );
+// }
+// console.log("student name",studentName)
+
+
+
+
+
         
 
  
