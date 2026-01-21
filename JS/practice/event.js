@@ -25,12 +25,11 @@
 //     console.log("the value of isMarried ",isMarried)
     
 //     // variables and data types 
-//     //variables types =2
 //     //initilization and declaration
-//     //types of operators =3
-//     //arithmetic operators + - * / %
+//     //arithmetic operators + - * / % ++ --
 //     //assignment operators = += -= *= /= %=
 //     //comparison operators == === != !== > < >= <=
+//     // logical operaters && (AND) || (OR) ! (NOT)
 
     
 
@@ -52,14 +51,18 @@
 //  console.log("the value of sub is ",sub)
 //  var mul=firstNumber*secondNumber                               
 //         console.log("the value of mul is ",mul)
+
 //        //prefix increment ,++x,--x//pre means phala
 //        //postfix increment x++,x--//post means baad me
+
 //        //++a,--a,a++,a--
 //        var a=1
 //        var b=(++a)+(--a)+(++a)+(--a)+(++a)
 //         console.log("the value of b is ",b)
+
 //                var B=(a++)+(a--)+(++a)+(--a)+(--a)
 //         console.log("the value of B is ",B)
+
 //         //comaprison operators
         
 // var firstNumber=10;
@@ -132,7 +135,7 @@
 
 
 //   var userMark=parseInt(prompt("enter ur in decimal marks"))
-//  console.log("the value of userMarks in number ",userMark)
+//   console.log("the value of userMarks in number ",userMark)
 
 //  if (condition){
 //     body } 
@@ -327,7 +330,28 @@ for(var i=0;i<5;i++){
 // }
 
 
+// var array=["fsd","lhr","isd","psh"]
+// array[0]="silkt"
+// console.log("update array",array[0])
 
+// 1.push()  ..add item last of an array
+//2. pop() ..remove elements last of an array
+var array=["fsd","lhr","isd","psh"]
+array.pop()
+array.push("pk","dkl")
+
+console.log("update array",array)
+
+//shift  ...remove elements in start of an array
+// unshift ..add elements   in start of an array
+ 
+var array=["fsd","lhr","isd","psh"]
+array.shift()
+console.log(" array",array)
+
+var array=["fsd","lhr","isd","psh"]
+array.unshift("silk","dgk")
+console.log("🚀 array",array)
 
 
 
