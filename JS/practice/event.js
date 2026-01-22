@@ -336,24 +336,46 @@ for(var i=0;i<5;i++){
 
 // 1.push()  ..add item last of an array
 //2. pop() ..remove elements last of an array
-var array=["fsd","lhr","isd","psh"]
-array.pop()
-array.push("pk","dkl")
+// var array=["fsd","lhr","isd","psh"]
+// array.pop()
+// array.push("pk","dkl")
 
-console.log("update array",array)
+// console.log("update array",array)
 
 //shift  ...remove elements in start of an array
 // unshift ..add elements   in start of an array
  
+// var array=["fsd","lhr","isd","psh"]
+// array.shift()
+// console.log(" array",array)
+
+// var array=["fsd","lhr","isd","psh"]
+// array.unshift("silk","dgk")
+// console.log("🚀 array",array)
+
+
+//1.splice 
+//2.slice
+
+// splilce
 var array=["fsd","lhr","isd","psh"]
-array.shift()
+array.splice(1,2,"skl","us")//first element start and last element delete element
 console.log(" array",array)
 
-var array=["fsd","lhr","isd","psh"]
-array.unshift("silk","dgk")
-console.log("🚀 array",array)
+var array=["1","2","3","4","5","6","7","8","9"]
+array.splice(1,2,"10","11")
+console.log(" array",array)
 
+// slice 
+var array=["1","2","3","4","5","6","7","8","9"]
+var newArray=array.slice(3,9) //first element start and last element end
+console.log("  original array",array)
+console.log("  new array",newArray)
 
+var array=["1","2","3","4","5","6","7","8","9"]
+
+var newArray=array.slice(-5) //add last element and form new array
+console.log("  new array",newArray)
 
 
 

@@ -235,8 +235,20 @@ var array=["fsd","lhr","lsd","psh"]
 array.unshift("dag")
 console.log("array",array)
 
+//1.splica
+//2.slice
+
+//1.splica
+var array=["fsd","lhr","lsc","psh","silk"]
+array.splice(1,3)
+console.log("array",array)
 
 
+//2.slice
+
+var array=["1","2","3","4","5"]
+var newArray=array.slice(1,3)
+console.log("newArray",newArray)
 
 
 
