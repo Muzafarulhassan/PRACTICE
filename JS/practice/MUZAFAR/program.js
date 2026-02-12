@@ -206,82 +206,78 @@
 
 
 
-for(var i=0;i<=5;i++){
-   let row=""
-   for(var j=0;j<=i;j++){
-        row+="*"
-}
-console.log(row,i)
-}
+// for(var i=0;i<=5;i++){
+//    let row=""
+//    for(var j=0;j<=i;j++){
+//         row+="*"
+// }
+// console.log(row,i)
+// }
 
 
 
-//1.push
-//2.pop
-var array=["fsd","lhr","lsd","psh"]
-array.pop()
-console.log("array",array)
+// //1.push
+// //2.pop
+// var array=["fsd","lhr","lsd","psh"]
+// array.pop()
+// console.log("array",array)
 
-var array=["fsd","lhr","lsd","psh"]
-array.push("sialk")
-console.log("array",array)
-//1.shift
-//2.unshift
-var array=["fsd","lhr","lsd","psh"]
-array.shift()
-console.log("array",array)
+// var array=["fsd","lhr","lsd","psh"]
+// array.push("sialk")
+// console.log("array",array)
+// //1.shift
+// //2.unshift
+// var array=["fsd","lhr","lsd","psh"]
+// array.shift()
+// console.log("array",array)
 
-var array=["fsd","lhr","lsd","psh"]
-array.unshift("dag")
-console.log("array",array)
+// var array=["fsd","lhr","lsd","psh"]
+// array.unshift("dag")
+// console.log("array",array)
 
-//1.splica
-//2.slice
+// //1.splice
+// //2.slice
 
-//1.splica
-var array=["fsd","lhr","lsc","psh","silk"]
-array.splice(1,3)
-console.log("array",array)
-
-
-//2.slice
-
-var array=["1","2","3","4","5"]
-var newArray=array.slice(1,3)
-console.log("newArray",newArray)
+// //1.splice
+// var array=["fsd","lhr","lsc","psh","silk"]
+// array.splice(1,3)
+// console.log("array",array)
 
 
+// //2.slice
+
+// var array=["1","2","3","4","5"]
+// var newArray=array.slice(1,3)
+// console.log("newArray",newArray)
+
+// //round
+// var num=4.5
+// var roundvalue=Math.round(num)
+// console.log("round",roundvalue)
+
+// //ceil
+// var num=4.5
+// var ceilValue=Math.ceil(num)
+// console.log("ceil",ceilValue)
+
+// //floor
+// var num=4.8
+// var floorvalue=Math.floor(num)
+// console.log("floor",floorvalue)
+
+// //random
+// var randomValue=Math.random()
+// console.log("random",randomValue)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// var sentence =
+// "It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them  to grasp their minds and motives in ways that they cannot grasp his.";
+// var checkWord=sentence.indexOf("World War II")
+// if(checkWord !==-1){
+//     sentence=sentence.slice(0,checkWord)+"Second World War"+sentence.slice(checkWord +12)
+//     console.log("update world",sentence)
+    
+// }
 
 
 
@@ -298,6 +294,50 @@ console.log("newArray",newArray)
 
 
 
+
+
+
+
+
+
+
+
+
+// var sentence =
+// "It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them  to grasp their minds and motives in ways that they cannot grasp his.";
+// var updateword=sentence.indexOf("World War II")
+// if(updateword !==-1){
+//     sentence=sentence.slice(0,updateword)+"Second World War"+sentence.slice(updateword +12)
+//     console.log("update sentence",sentence)
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 

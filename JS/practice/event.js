@@ -311,14 +311,14 @@
 // console.log("student name",studentName)
 
 
-for(var i=0;i<5;i++){
-        let row=""
-        for(var j=0;j<=i;j++){
-         row +="*"
-        }
-        console.log(row,i)
+// for(var i=0;i<5;i++){
+//         let row=""
+//         for(var j=0;j<=i;j++){
+//          row +="*"
+//         }
+//         console.log(row,i)
 
-}
+// }
 
 // for (var i = 0; i < 5; i++) {
 //   // outer loop
@@ -357,31 +357,160 @@ for(var i=0;i<5;i++){
 //1.splice 
 //2.slice
 
-// splilce
-var array=["fsd","lhr","isd","psh"]
-array.splice(1,2,"skl","us")//first element start and last element delete element
-console.log(" array",array)
+// // splilce
+// var array=["fsd","lhr","isd","psh"]
+// array.splice(1,2,"skl","us")//first element start and last element delete element
+// console.log(" array",array)
 
-var array=["1","2","3","4","5","6","7","8","9"]
-array.splice(1,2,"10","11")
-console.log(" array",array)
+// var array=["1","2","3","4","5","6","7","8","9"]
+// array.splice(1,2,"10","11")
+// console.log(" array",array)
 
-// slice 
-var array=["1","2","3","4","5","6","7","8","9"]
-var newArray=array.slice(3,9) //first element start and last element end
-console.log("  original array",array)
-console.log("  new array",newArray)
+// // slice 
+// var array=["1","2","3","4","5","6","7","8","9"]
+// var newArray=array.slice(3,9) //first element start and last element end
+// console.log("  original array",array)
+// console.log("  new array",newArray)
 
-var array=["1","2","3","4","5","6","7","8","9"]
+// var array=["1","2","3","4","5","6","7","8","9"]
 
-var newArray=array.slice(-5) //add last element and form new array
-console.log("  new array",newArray)
+// var newArray=array.slice(-5) //add last element and form new array
+// console.log("  new array",newArray)
+
+// // slice example 
+// var animals=["cat","dog"]
+// animals.push("elephant","tiger","lion")
+// console.log("animals",animals)
+// // 
+// var animals=["cat","dog"]
+// animals.push("elephant","tiger","lion")
+// animals.pop()
+// animals.shift()
+// animals.unshift("fox")
+// console.log("animals",animals)
+// // var array=["1","2","3","4","5","6","7","8","9"]
+// // array.splice(1,5,"10","11")
+// // console.log(" array",array)
+
+// var array=["1","2","3","4","5","6","7","8","9"]
+
+//  var newArray=array.slice(4,9)
+// console.log(" array",newArray)
+
+// loops//for ///while///do while
+//for loop
+// for(var i=0;i<5;i++){
+//         console.log("the value of for loop is",i)
+// }
+
+// *1
+// **2
+
+// for(var i=0;i<5;i++){
+//         let row=""
+//         for(var j=0;j<i;j++){
+//          row +="*"       
+//         }
+//         console.log(row,i)
+// }
 
 
 
-        
 
- 
+//   var cities = [];
+
+// for (var i = 0; i < 3; i++) {
+//         cities[i]=prompt("enter cities name")
+// }
+// for(var i=0;i<cities.length;i++){
+//     console.log(cities[i])
+// }
+
+
+// for (var i = 0; i < cities.length; i++) {
+//     console.log(cities[i]);
+// }
+
+//round 
+
+// var num=4.5
+// var roundValue=Math.round(num)
+// console.log("round",roundValue)
+
+// ceil
+
+// var num=4.4
+// var ceilValue=Math.ceil(num)
+// console.log("ceil",ceilValue)
+
+
+// var num=4.8
+// var ceilValue=Math.floor(num)
+// console.log("round",Math.floor(num))
+
+// var ceilValue=Math.random()
+// console.log("round",ceilValue)
+
+
+
+// var ceilValue=Math.floor(Math.random())
+// console.log("round",ceilValue)
+
+
+// var ceilValue=Math.floor(Math.random()*10)+100
+// console.log("round",ceilValue)
+
+// var randomNumber=Math.floor(Math.random()*10)
+// console.log("random ",randomNumber)
+
+// var tail=prompt("ENTER FRST player num")
+// var head=prompt("ENTER SECOND player num")
+// if(tail==0){
+//         console.log("tail wins",tail)
+// }else{
+//         console.log("head wins",head)
+// }
+
+
+// var num = Math.floor(Math.random() * (max - min + 1)) + min;
+
+// var cites=["karachi","lahore","islamabad","quetta","peshawar"]
+// var userCity=prompt("Enter your city name")
+// let cleanCities=false
+// for(var i=0;i<cites.length;i++){
+//         if(cites[i]==userCity){
+//                 cleanCities=true
+//                 alert("your city is clean",userCity)
+//                 break;
+                
+//         }
+//          alert("your city is not  clean",userCity)
+// }
+// var userCity=prompt("Enter your upper cse city name")
+// var lower=userCity.toLowerCase()
+// console.log("lower case",lower)
+
+
+// var userCity=prompt("Enter your lower case city name")
+// var lower=userCity.toUpperCase()
+// console.log("upper case",lower)
+
+// var sentence =
+// "It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them  to grasp their minds and motives in ways that they cannot grasp his.";
+// var checkWord=sentence.indexOf("World War II")
+// if(checkWord !==-1){
+//        sentence = sentence.slice(0,checkWord)+"Second World War"+sentence.slice(checkWord +12)
+//         console.log("update world",sentence)
+// }
+
+// var sentence =
+// "It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them  to grasp their minds and motives in ways that they cannot grasp his.";
+// for(var i=0;i<sentence.length;i++){
+//         if(sentence.slice(i,i+12)=="World War II"){
+//                 sentence=sentence.slice(0,i)+"Second World War"+sentence.slice(i+12)
+//         }
+//         console.log("update word",sentence)
+// }
 
 
 
@@ -389,7 +518,473 @@ console.log("  new array",newArray)
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
