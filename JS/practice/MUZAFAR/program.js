@@ -115,8 +115,8 @@
 // else{
 //     console.log("is not valid weeks")
 // }
-// Switch
-// let weekNumber=parseInt(prompt("enter week number"))
+// SwitchAS?
+// let wee kNumber=parseInt(prompt("enter week number"))
 
 // switch(weekNumber){
 //     case 1:
@@ -278,210 +278,69 @@
 //     console.log("update world",sentence)
     
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // var sentence =
-// "It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them  to grasp their minds and motives in ways that they cannot grasp his.";
-// var updateword=sentence.indexOf("World War II")
-// if(updateword !==-1){
-//     sentence=sentence.slice(0,updateword)+"Second World War"+sentence.slice(updateword +12)
-//     console.log("update sentence",sentence)
+// "It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them  to grasp their minds and motives in ways that they cannot grasp his World War II,.";
+// var newsentence=sentence.replaceAll("World War II","Second World War")
+// console.log("update world",newsentence)
+
+// var cleanCity=["karachi","fsd","sialkot"]
+// var city=prompt("enter ur city name")
+// var newCity=false
+// for(var i=0;i<cleanCity.length;i++){
+//     if(cleanCity[i]==city){
+//         newCity=true
+//     console.log("user clean  city",city)
+
+//         break;
+//     }
+//     console.log("our clean city",city)
+// }
+
+// var food=prompt("Enter ur food name")
+// switch(food){
+//     case "biryani":
+//         console.log("I am eating biryani",food)
+//         break;
+//     case "karahi":
+//         console.log("I am eating karahi",food)
+//         break;
+
+//         default:
+//         console.log("I am eating nothing",food)
+// }
+// var food=prompt("Enter ur food name")
+// switch(food){
+//     case "biryani":
+//         case "pizza":  
+//           case "burger":
+//             console.log("its a food",food)
+//             break;
+//             default:
+//             console.log("its not a food",food)
+// }
+
+// var day=prompt("Enter ur day name")
+// switch(day){
+//     case "monday":
+//         console.log("today is monday and i am eating biryani",day)
+//         break 
+//         case "tuesday":
+//             console.log("today is tuesday and i am eating karahi",day)
+//             break
+//             case "wednesday":
+//                 console.log("today is wednesday and i am eating pizza",day)
+//                 break
+//                 default:
+//                   console.log("today is not a valid day",day)
 // }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var num=prompt("enter number")
+if(num%2===0){
+    console.log("the number is even",num)
+}else{
+    console.log("the num is odd",num)
+}
 
 
 
