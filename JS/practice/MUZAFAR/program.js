@@ -335,11 +335,182 @@
 // }
 
 
-var num=prompt("enter number")
-if(num%2===0){
-    console.log("the number is even",num)
-}else{
-    console.log("the num is odd",num)
+// var num=prompt("enter number")
+// if(num%2===0){
+//     console.log("the number is even",num)
+// }else{
+//     console.log("the num is odd",num)
+// }
+
+
+// var num=prompt("Enter ur number")
+// if(num%2===0){
+// console.log(" not valid number",num)
+// }else{
+//     console.log(" valid number ",num)
+// }
+
+
+// var num=prompt("Enter ur number")
+// if(num>10){
+//     console.log(" the num is greater then 10 ",num)
+// }else{
+//     console.log("the num is less then 10",num)
+
+// }
+
+
+// var age=prompt("Enter ur age")
+// if(age>=18){
+//     console.log("you are eligible for vote",age)
+// }
+// else{
+//     console.log("you are not eligible for vote",age)
+// }
+
+
+// var num=prompt("Enter ur number")
+// if(num%2===0){
+//     console.log("the number is even",num)
+// }
+// else{
+//     console.log("the number is odd",num)
+// }
+
+
+// var num=prompt("Enter ur number")
+// if(num==="12345"){
+// console.log("login successful",num)
+// }else{
+// console.log("wrong password",num)
+// }
+
+
+// var num=prompt("Enter ur number")
+// if(num>=50){
+//     console.log("You are pass",num)
+// }else{
+//     console.log("You are fail",num)
+
+// }
+
+
+// var grade=prompt("Enter ur number")
+// if(grade>="80"){
+//     console.log("Your grade is A",grade)
+// }else if(grade>="60"){
+//     console.log("Your grade is B",grade)
+// }else if(grade>="40"){
+//     console.log("Your grade is C",grade)
+// }else if(grade<"40"){
+//     console.log("Your are fail",grade)
+// }
+
+
+
+// var age=+prompt("Enter ur age")
+// var nationality=prompt("Enter ur nationality ")
+// if(age>18 && nationality==="pakistani" ){
+//     console.log("yr are eligible",age)
+// }else{
+//     console.log("yr are not eligible",age)
+// }
+
+
+
+// var week=prompt("Enter ur week")
+// if(week=="sunday"){
+//     console.log(" Today is weakend",week)
+// }else{
+//     console.log("Today is weekday",week)
+// }
+
+
+// var fruties=["apple","banana","orange","stobary","pinaple",]
+// console.log("5 fruties",fruties)
+
+// var fruties=["apple","banana","orange","stobary","pinaple",]
+// fruties.splice(1,3)
+// console.log("fruties",fruties)
+
+
+
+// var city=["karachi","lahore","islamabad","peshawar","quetta",]
+// city.push("FSD")
+// console.log("city",city)
+// city.pop()
+// console.log("city",city)
+
+//   var check=city.includes("lahore")
+//   console.log("check",check)
+
+
+// var num=[10,20,31,41,50]
+// var sum=10+20+31+41+50
+// console.log("num",sum)
+
+// var num=[10,20,31,41,50]
+// if(num%2==0){
+//     console.log("the number is even",num)
+// }else{
+//     console.log("the number is odd",num)
+// }
+ 
+
+// var city=["karachi","lahore","islamabad","peshawar","quetta",]
+// city.reverse()
+// console.log("city",city)
+
+
+// var city=[]
+// if(city.length==0){
+//     console.log("the array is empty",city)
+// }else{
+//     console.log("the array is not empty",city)
+// }
+
+
+// var city=["karachi","lahore","islamabad","peshawar","quetta",]
+// if(city.includes("karachi")){
+//     console.log("karachi is exist in the array",city)
+// }else{
+//     console.log("karachi is not exist in the array",city)
+// }
+
+
+
+// var city=["karachi","lahore","islamabad","peshawar","quetta",]
+// if(city.includes("karachi")){
+//     console.log("karachi has spacific value",city)
+// }else{
+//     console.log("karachi has not spacific value",city)
+// }
+
+
+
+
+// var num=prompt("Enter ur number")
+// if(num%2===0){
+//     console.log("the number is even",num)
+// }
+// else{
+//     console.log("the number is odd",num)
+// }
+
+// var num=prompt("Enter ur number")
+// if(num<0){
+//     console.log("the number is negative",num)
+// }else if(num>0){
+//     console.log("the number is positive",num)
+// }
+
+var num=prompt("Enter ur number")
+if(num%3==0 && num%5==0){
+    console.log("FizzBuzz",num)
+}else if(num%3==0){
+    console.log("Fizz",num)
+}else if(num%5==0){
+    console.log("Buzz",num)
 }
 
 
@@ -354,68 +525,31 @@ if(num%2===0){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// var num=[1,2,3,4,5,6,7,8,9]
+// num.pop()
+// console.log("num",num)
+
+// var num=[1,2,3,4,5,6,7,8,9]
+// num.shift()
+// console.log("num",num)
+
+
+// var fruits=["apple", "banana", "mango", "orange"]
+// fruits.includes("banana")
+// console.log("found banana",fruits)
+
+
+
+// var grades=prompt("Enter ur grade")
+// if(grades>90){
+//     console.log("Your grade is A+",grades)
+// }else if(grades>=80){
+//  console.log("Your grade is A",grades)
+// }else if(grades>=70){
+//     console.log("your grade is B",grades)
+// }else if(grades>=60){
+//     console.log("your grade is C",grades)
+// }else{
+//     console.log("you are fail",grades)
+// }
 
