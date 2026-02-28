@@ -568,14 +568,35 @@
 // }
 // console.log("total names with 5 characters",count)
 
-var word=prompt("Enter ur word")
-if(word==="madam"){
-    console.log("the word is palindrome",word)
-}else if(word==="hello"){
-    console.log("the word is not palindrome",word)
+// var word=prompt("Enter ur word")
+// if(word==="madam"){
+//     console.log("the word is palindrome",word)
+// }else if(word==="hello"){
+//     console.log("the word is not palindrome",word)
+// }
+
+
+// var num=prompt("Enter ur number")
+// var square=num*num
+// console.log("the square of the number is",square)
+
+
+
+// var num=[1,2,3];
+// var count=0;
+// for(var i=0;i<num.length;i++){
+//     count=count+num[i]
+// }
+// console.log("the sum of the number is",count)
+
+// var names=["Ali", "Ahmed", "Sara"]
+// var check=
+// names.includes("Ahmed")
+// console.log(" Ahmed",check)
+
+
+var num=[0,1,2,0,3,0,4,5]
+var count=0;
+for(var i=0;i<num.length;i++){
+    console.log("the array has zero",count)
 }
-
-
-
-
-
