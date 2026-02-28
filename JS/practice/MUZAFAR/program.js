@@ -504,25 +504,14 @@
 //     console.log("the number is positive",num)
 // }
 
-var num=prompt("Enter ur number")
-if(num%3==0 && num%5==0){
-    console.log("FizzBuzz",num)
-}else if(num%3==0){
-    console.log("Fizz",num)
-}else if(num%5==0){
-    console.log("Buzz",num)
-}
-
-
-
-
-
-
-
-
-
-
-
+// var num=prompt("Enter ur number")
+// if(num%3==0 && num%5==0){
+//     console.log("FizzBuzz",num)
+// }else if(num%3==0){
+//     console.log("Fizz",num)
+// }else if(num%5==0){
+//     console.log("Buzz",num)
+// }
 
 
 // var num=[1,2,3,4,5,6,7,8,9]
@@ -552,4 +541,41 @@ if(num%3==0 && num%5==0){
 // }else{
 //     console.log("you are fail",grades)
 // }
+
+
+
+// var num=[1,2,3,4,5,6,7,8,9,10]
+// num.reverse()
+// console.log(" reverse num",num)
+
+
+// var num=[1,2,3,4,5,6,7,8,9,10];
+// var count=0;
+// for(var i=0;i<num.length;i++){
+//     if(num[i]%2===0){
+//         count++
+//     }   
+// }
+// console.log("total even number",count)
+
+
+// var names=["Ali","Ahmed","Ayesh","Sana","Hassa"]
+// var count=0;
+// for(var i=0;i<names.length;i++){
+//     if(names[i].length===5){
+//         count++
+//     }
+// }
+// console.log("total names with 5 characters",count)
+
+var word=prompt("Enter ur word")
+if(word==="madam"){
+    console.log("the word is palindrome",word)
+}else if(word==="hello"){
+    console.log("the word is not palindrome",word)
+}
+
+
+
+
 
