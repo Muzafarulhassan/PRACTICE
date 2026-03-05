@@ -595,8 +595,10 @@
 // console.log(" Ahmed",check)
 
 
-var num=[0,1,2,0,3,0,4,5]
-var count=0;
-for(var i=0;i<num.length;i++){
-    console.log("the array has zero",count)
-}
+// var num=[0,1,2,0,3,0,4,5]
+// var count=0;
+// for(var i=0;i<num.length;i++){
+//     console.log("the array has zero",count)
+// }
+
+
