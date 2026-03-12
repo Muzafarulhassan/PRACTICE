@@ -38,12 +38,6 @@
 //     i--
 // }
 
-// var correctpassword="34"
-// var password;
-// do{password=prompt("enter your password")
-//     password=+password
-// }while(password===correctpassword)
-// console.log("correct password")
 
 
 
@@ -69,3 +63,84 @@
 //     factrial=factrial*i   
 // }
 // console.log("factorial of",num,"is",factrial)
+
+
+// var day=prompt("enter a day")
+// switch(day){
+//     case "1":("Monday")
+//     console.log("today is monday")
+//     break;
+//     case "2":("Tuesday")
+//     console.log("today is tuesday")
+//     break;
+//     case "3":("wedensday")
+//     console.log("today is wedensday")
+//     break;
+//     case "4":("thirsday")
+//     console.log("Today is thirsday")
+//     break;
+//     case "5":("friday")
+//     console.log("today is friday")
+//     break;
+//     case "6":("saturday")
+//     console.log("today is sayurday")
+//     break;
+//     case "7":("sunday")
+//     console.log("today is sunday")
+//     break;
+//     default:
+//     console.log("invalid day")
+// }
+
+
+// var Alphabats=prompt("enter any alphabats")
+// switch(Alphabats){
+//     case "a":
+//     console.log("vowel ")
+//     break;
+//     case "e":
+//     console.log("vowel ")
+//     break;
+//     case "i":
+//     console.log("vowel ")
+//     break;
+//     case "o":
+//     console.log("vowel ")
+//     break;
+//     case "u":
+//     console.log("vowel ")
+//     break;
+//     default:
+//     console.log("not vowel ")
+// }
+
+// var grade=prompt("enter your percentage")
+// if(grade>=90){
+//     console.log("you got A grade")
+// }else if(grade>=80){
+//     console.log("you got B grade")
+// }else if(grade>=70){
+//     console.log("you got C grade")
+// }else if(grade>=60){
+//     console.log("you got D grade")
+// }else if(grade>=50){
+//     console.log("you got E grade")
+// }else{
+//     console.log("you got F grade")
+// }
+
+// for(var i=1;i<=100;i++){
+//     if(i%5==0){
+//         console.log("number is",i)
+//     }
+// }
+
+
+
+var program;
+while(program=="yes"){
+var program=prompt("you want to repeat program yes/no")
+program
+}
+
+
