@@ -32,8 +32,38 @@
 // }
 // console.log(fruits);
 
+
 // Print each character of a given string using a loop.
-var str = "Hello World";
-for(var i=0;i<str.length;i++){
-    console.log(str[i])
-}
+
+// var str = "Hello World";
+// for(var i=0;i<str.length;i++){
+//     console.log(str[i])
+// }
+
+// var fruitName = prompt("Entre u fruit name");
+// var count=0
+// for(var i=0 ;i<fruitName.length;i++){
+//     if(fruitName[i]=="a"){
+//         count++;
+//}
+// }
+// console.log("There are", count, "a's in", fruitName);
+
+
+
+// var sentence="I like banana because banana is healthy and banana is tasty."
+// replaceAll=sentence.replaceAll("banana","apple")
+// console.log(replaceAll)
+
+
+// var sentence="I like banana because banana is healthy and banana is tasty."
+// for(var i=0;i<sentence.length;i++){
+//    if(sentence[i]==="apple"){
+//     remove=sentence.replaceAll("banana","apple")
+//    }
+
+// } console.log("replace element is",sentence)
+
+
+// var sentence="banana orange apple mango"
+// console.log(sentence.indexOf("banana"))
