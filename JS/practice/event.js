@@ -511,12 +511,33 @@
 //         console.log("update world",sentence)
 // }
 
-var sentence =
-"It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them  to grasp their minds and motives in ways that they cannot grasp his.";
-for(var i=0;i<sentence.length;i++){
-        if(sentence.slice(i,i+12)=="World War II"){
-                sentence=sentence.slice(0,i)+"Second World War"+sentence.slice(i+12)
-        }
-        console.log("update word",sentence)
-}
+// var sentence =
+// "It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them  to grasp their minds and motives in ways that they cannot grasp his.";
+// for(var i=0;i<sentence.length;i++){
+//         if(sentence.slice(i,i+12)=="World War II"){
+//                 sentence=sentence.slice(0,i)+"Second World War"+sentence.slice(i+12)
+//         }
+//         console.log("update word",sentence)
+// }
+
+
+// var text="My name is john doe and i am a software engineer"
+// alert("Do you want to replace text in " +text)
+// var replace=prompt("Enter word to replace")
+// var replaceWith=prompt("Enter word to replace with")
+// var newtext=text.replace(replace,replaceWith)
+// console.log("updated text is ",newtext)
+
+
+
+// var date=new Date()
+// console.log("date",date)
+// var getdate=date.getFullYear()
+// console.log("get date",getdate)
+
+
+
+
+
+
 
