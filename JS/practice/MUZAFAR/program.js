@@ -602,3 +602,12 @@
 // }
 
 
+
+var sentence =
+"It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them  to grasp their minds and motives in ways that they cannot grasp his.";
+for(var i=0;i<sentence.length;i++){
+    if(sentence.slice(i,i+12)=="World War II"){
+        sentence=sentence.slice(0,i)+"Second World War"+sentence.slice(i+12)
+}
+    console.log("update world",sentence)
+}

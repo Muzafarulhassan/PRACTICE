@@ -357,7 +357,7 @@
 //1.splice 
 //2.slice
 
-// // splilce
+// splilce
 // var array=["fsd","lhr","isd","psh"]
 // array.splice(1,2,"skl","us")//first element start and last element delete element
 // console.log(" array",array)
@@ -474,18 +474,26 @@
 
 // var num = Math.floor(Math.random() * (max - min + 1)) + min;
 
-// var cites=["karachi","lahore","islamabad","quetta","peshawar"]
-// var userCity=prompt("Enter your city name")
-// let cleanCities=false
-// for(var i=0;i<cites.length;i++){
-//         if(cites[i]==userCity){
-//                 cleanCities=true
-//                 alert("your city is clean",userCity)
-//                 break;
-                
-//         }
-//          alert("your city is not  clean",userCity)
+ 
+// var cities = ["karachi", "lahore", "islamabad", "quetta", "peshawar"];
+
+// var userCity = prompt("Enter your city name");
+
+// let cleanCities = false;
+
+// for (var i = 0; i < cities.length; i++) {
+
+//     if (cities[i] == userCity) {
+//         cleanCities = true;
+//         console.log("your city is clean", userCity);
+//         break;
+//     }
 // }
+
+// if (cleanCities == false) {
+//     console.log("your city is not clean", userCity);
+// }
+
 // var userCity=prompt("Enter your upper cse city name")
 // var lower=userCity.toLowerCase()
 // console.log("lower case",lower)
@@ -503,12 +511,12 @@
 //         console.log("update world",sentence)
 // }
 
-// var sentence =
-// "It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them  to grasp their minds and motives in ways that they cannot grasp his.";
-// for(var i=0;i<sentence.length;i++){
-//         if(sentence.slice(i,i+12)=="World War II"){
-//                 sentence=sentence.slice(0,i)+"Second World War"+sentence.slice(i+12)
-//         }
-//         console.log("update word",sentence)
-// }
+var sentence =
+"It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them  to grasp their minds and motives in ways that they cannot grasp his.";
+for(var i=0;i<sentence.length;i++){
+        if(sentence.slice(i,i+12)=="World War II"){
+                sentence=sentence.slice(0,i)+"Second World War"+sentence.slice(i+12)
+        }
+        console.log("update word",sentence)
+}
 
