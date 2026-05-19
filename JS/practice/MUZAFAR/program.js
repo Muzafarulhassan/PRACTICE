@@ -633,3 +633,18 @@
 // console.log("day",day)
 // var hours=date.getHours()
 // console.log("hours",hours)
+
+
+// // age calculation 
+var userdate=prompt("Enter ur date of birth eg jun 10,1990")
+var currentdate=new Date()
+var birthdate=new Date(userdate)
+var currentdate =currentdate.getTime()
+var currentdateDob=currentdate.getTime()
+var different=currentdate-currentdateDob
+var age= different/1000/60/60/24/365
+console.log("your age is",Math.floor(age))
+
+
+
+
