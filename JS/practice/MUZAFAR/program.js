@@ -635,19 +635,37 @@
 // console.log("hours",hours)
 
 
-// // age calculation 
-var userdate=prompt("Enter ur date of birth eg jun 10,1990")
-var currentdate=new Date()
-var birthdate=new Date(userdate)
-var currentdate =currentdate.getTime()
-var currentdateDob=birthdate.getTime()
-var different=currentdate-currentdateDob
-var age= different/1000/60/60/24/365
-console.log("your age is",Math.floor(age))
-
-// var currentdate =currentdate.()
-// console.log("hours",currentdate)
+// // // age calculation 
+// var userdate=prompt("Enter ur date of birth eg jun 10,1990")
+// var currentdate=new Date()
+// var birthdate=new Date(userdate)
+// var currentdate =currentdate.getTime()
+// var currentdateDob=birthdate.getTime()
+// var different=currentdate-currentdateDob
+// var age= different/1000/60/60/24/365
+// console.log("your age is",Math.floor(age))
 
 
+// function getTime(){
+// var nowDate = new Date();
+// var hour = nowDate.getHours();
+// var minute = nowDate.getMinutes();
+//     console.log("time: " + hour + ":" + minute);   
+// }
+// getTime()
 
+// function name(username,userage,usethigt){
+//     console.log("the name of user is",username+" the age of user is",userage+" the thight of user is",usethigt)
+// }
+// name("Ali",20,5.6)
+// name("Ali",20,5.6)
+// name("Ali",20,5.6)
+
+// function sum (firstname,secondname){
+// var adition=firstname+secondname 
+// console.log("the sum of two number is",adition)
+// }
+// var a=parseInt(prompt("enter first number"))
+// var b=parseInt(prompt("enter second number"))
+// sum(a,b)
 
