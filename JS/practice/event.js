@@ -535,9 +535,40 @@
 // var getdate=date.getFullYear()
 // console.log("get date",getdate)
 
+// set dates
+// var today=new Date();
+// today.setFullYear(2040)
+// // set month, date and year
+// today.setMonth(10) // month is 0 based index
+// today.setDate(5)
+// console.log("🚀 ~ today:", today)
 
-// Age Calcuation 
+
+// var now = new Date();
+// var theHr = now.getHours();
+// var theMin = now.getMinutes();
+// console.log("time: " + theHr + ":" + theMin);
+
+// function getTime(){
+// var now = new Date();
+// var theHr = now.getHours();
+// var theMin = now.getMinutes();
+// console.log("time: " + theHr + ":" + theMin);       
+// }
 
 
+// function Name(userName,userAge,userCity){//userName,userAge,userCity are parameters
+//         console.log("my name is " + userName + " and my age is " + userAge + " and my city is " + userCity)
+// }
+// Name("john doe", 25, "karachi")//john doe,userAge=25,userCity=karachi are arguments
+// Name("john ", 30, "lahore")//john ,userAge=30,userCity=lahore are arguments
+// Name("doe", 35, "islamabad")//doe,userAge=35,userCity=islamabad are arguments
 
 
+// // function sum(firstNumber, secondNumber) {
+// //   var addition = firstNumber + secondNumber;
+// //   console.log(addition);
+// // }
+// // var a = parseInt(prompt("Enter first number"));
+// var b = parseInt(prompt("Enter second number"));
+// sum(a, b);
