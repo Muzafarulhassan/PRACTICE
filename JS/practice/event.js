@@ -571,4 +571,132 @@
 // // }
 // // var a = parseInt(prompt("Enter first number"));
 // var b = parseInt(prompt("Enter second number"));
-// sum(a, b);
+// sum(a, b)
+
+// function 
+ var number = "10";
+ console.log("number", Number(number)); //convert string to number
+// console.log("number",number)
+
+
+var number=10;
+console.log("string",number.toString());//convert number to string
+
+var number=10.94449;
+console.log("fixed",number.toFixed(3))//convert number to string with fixed decimal points
+
+var price = 9.95;
+var taxRate = 0.65;
+var total = price + (price * taxRate);
+console.log("total", total);
+
+
+var total=1.555
+var prettyTotal=total.toFixed(1)
+console.log("🚀 ~ prettyTotal:", prettyTotal)
+var currencyTotal = "$" + prettyTotal
+console.log("🚀 ~ currencyTotal:", currencyTotal)
+
+
+function sum(a, b) {
+  var result = a + b;
+  console.log("the value of sum is ", result);
+  return result;
+}
+sum(10,40)
+
+
+function toggle(value1, value2) {
+  var result = value1.toUpperCase() + " " + value2.toLowerCase();
+  return result;
+}
+
+var output = toggle("Hello", "WORLD");
+console.log("output", output);
+
+
+var merchTot = 75;
+var orderTot=90;
+if (merchTot >= 100) {
+  orderTot = merchTot;
+} else if (merchTot < 50.01) {
+  orderTot = merchTot + 5;
+} else {
+  orderTot = merchTot + 5 + 0.03 * (merchTot - 50);
+}
+console.log("order total", orderTot);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
