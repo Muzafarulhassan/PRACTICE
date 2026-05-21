@@ -669,3 +669,43 @@
 // var b=parseInt(prompt("enter second number"))
 // sum(a,b)
 
+//function
+var number="10"
+console.log("the value of number",Number(number))
+
+//function
+var number=10
+console.log("the value of number",number.toString())
+
+//function
+var number=10.5
+var ratetex=0.75
+var total=number*ratetex
+console.log("the total is",total)
+
+
+//function
+var total=10.59
+var preetytotal=total.toFixed(1)
+console.log("the pretty total is",preetytotal)
+var currency= "&" +preetytotal
+console.log("the currency is",currency)
+
+//fyunction
+function sum(a,b){
+    var adition=a+b
+    console.log("the sum of two number is",adition)
+}
+sum(10,20)
+
+//function
+function tuggle(a,b){
+    var result=a.toUpperCase() + b.toLowerCase()
+    console.log("the sum of two number is",result)
+}
+var output=tuggle("hello"," world")
+console.log("the output is",output)
+
+
+
+

@@ -615,16 +615,16 @@ var output = toggle("Hello", "WORLD");
 console.log("output", output);
 
 
-var merchTot = 75;
-var orderTot=90;
-if (merchTot >= 100) {
-  orderTot = merchTot;
-} else if (merchTot < 50.01) {
-  orderTot = merchTot + 5;
-} else {
-  orderTot = merchTot + 5 + 0.03 * (merchTot - 50);
-}
-console.log("order total", orderTot);
+// var merchTot = 75;
+// var orderTot=90;
+// if (merchTot >= 100) {
+//   orderTot = merchTot;
+// } else if (merchTot < 50.01) {
+//   orderTot = merchTot + 5;
+// } else {
+//   orderTot = merchTot + 5 + 0.03 * (merchTot - 50);
+// }
+// console.log("order total", orderTot);
 
 
 
