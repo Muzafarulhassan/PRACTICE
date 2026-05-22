@@ -670,42 +670,86 @@
 // sum(a,b)
 
 //function
-var number="10"
-console.log("the value of number",Number(number))
+// var number="10"
+// console.log("the value of number",Number(number))
 
 //function
-var number=10
-console.log("the value of number",number.toString())
+// var number=10
+// console.log("the value of number",number.toString())
 
 //function
-var number=10.5
-var ratetex=0.75
-var total=number*ratetex
-console.log("the total is",total)
+// var number=10.5
+// var ratetex=0.75
+// var total=number*ratetex
+// console.log("the total is",total)
 
 
 //function
-var total=10.59
-var preetytotal=total.toFixed(1)
-console.log("the pretty total is",preetytotal)
-var currency= "&" +preetytotal
-console.log("the currency is",currency)
+// var total=10.59
+// var preetytotal=total.toFixed(1)
+// console.log("the pretty total is",preetytotal)
+// var currency= "&" +preetytotal
+// console.log("the currency is",currency)
 
 //fyunction
-function sum(a,b){
-    var adition=a+b
-    console.log("the sum of two number is",adition)
+// function sum(a,b){
+//     var adition=a+b
+//     console.log("the sum of two number is",adition)
+// }
+// sum(10,20)
+
+// //function
+// function tuggle(a,b){
+//     var result=a.toUpperCase() + b.toLowerCase()
+//     console.log("the sum of two number is",result)
+// }
+// var output=tuggle("hello"," world")
+// console.log("the output is",output)
+
+// var marchtop=75;
+// var ordertop=90;
+// if(marchtop>=100){
+//     marchtop=ordertop
+// }else if(marchtop < 50.03){
+//  ordertop= marchtop+5
+// }else{
+//     ordertop=marchtop+5+0.03*(marchtop-50)
+//     console.log("the ordertop is",ordertop)
+// // }
+
+
+
+
+
+function tot(marchtop){
+    var ordertop;
+    if(marchtop>=100){
+        ordertop= marchtop
+    }else if(marchtop < 50.01){
+     ordertop= marchtop+5
+    }else{
+        ordertop=marchtop+5+0.03*(marchtop-50)
+    }
+    return ordertop;
 }
-sum(10,20)
 
-//function
-function tuggle(a,b){
-    var result=a.toUpperCase() + b.toLowerCase()
-    console.log("the sum of two number is",result)
-}
-var output=tuggle("hello"," world")
-console.log("the output is",output)
+var totalToCharge = 2 + tot(79.99);
+console.log("🚀 ~ totalToCharge:", totalToCharge);
 
 
 
 
+// function calcTot(merchTot) {
+//   var orderTot;
+//   if (merchTot >= 100) {
+//     orderTot = merchTot;
+//   } else if (merchTot < 50.01) {
+//     orderTot = merchTot + 5;
+//   } else {
+//     orderTot = merchTot + 5 + 0.03 * (merchTot - 50);
+//   }
+//   return orderTot;
+// }
+
+// var totalToCharge = 2 + calcTot(79.99);
+// console.log("🚀 ~ totalToCharge:", totalToCharge);
