@@ -628,6 +628,39 @@ console.log("output", output);
 
 
 
+// function dayOfWeek(dayOfWk) {
+//   var result = "";
+//   switch (dayOfWk) {
+//     case "Sat":
+//       result = "Whoopee";
+//       break;
+//     case "Sun":
+//       result = "Whoopee";
+//       break;
+//     case "Fri":
+//       result = "TGIF!";
+//       break;
+//     default:
+//       result = "Shoot me now!";
+//   }
+//   return result;
+// }
+function dayOfWeek(dayOfWk) {
+  switch (dayOfWk) {
+    case "Sat":
+      return "Whoopee";
+    case "Sun":
+      return "Whoopee";
+    case "Fri":
+      return "TGIF!";
+    default:
+      return "Shoot me now!";
+  }
+}
+
+var output = dayOfWeek("Sat");
+console.log("output", output);
+
 
 
 

@@ -721,20 +721,20 @@
 
 
 
-function tot(marchtop){
-    var ordertop;
-    if(marchtop>=100){
-        ordertop= marchtop
-    }else if(marchtop < 50.01){
-     ordertop= marchtop+5
-    }else{
-        ordertop=marchtop+5+0.03*(marchtop-50)
-    }
-    return ordertop;
-}
+// function tot(marchtop){
+//     var ordertop;
+//     if(marchtop>=100){
+//         ordertop= marchtop
+//     }else if(marchtop < 50.01){
+//      ordertop= marchtop+5
+//     }else{
+//         ordertop=marchtop+5+0.03*(marchtop-50)
+//     }
+//     return ordertop;
+// }
 
-var totalToCharge = 2 + tot(79.99);
-console.log("🚀 ~ totalToCharge:", totalToCharge);
+// var totalToCharge = 2 + tot(79.99);
+// console.log("🚀 ~ totalToCharge:", totalToCharge);
 
 
 
@@ -753,3 +753,37 @@ console.log("🚀 ~ totalToCharge:", totalToCharge);
 
 // var totalToCharge = 2 + calcTot(79.99);
 // console.log("🚀 ~ totalToCharge:", totalToCharge);
+
+
+// var ans=0
+// function sum(a,b){
+//     var result=a+b
+//     return result;
+// }
+
+// function multiply(x,y){
+//     return x*y
+// }
+
+// var ans=sum(5,multiply(10,20))
+// console.log("the answer is",ans)
+
+
+
+
+// function dayOfWeek(dayOfWk) {
+//   switch (dayOfWk) {
+//     case "Sat":
+//       return "Whoopee";
+//     case "Sun":
+//       return "Whoopee";
+//     case "Fri":
+//       return "TGIF!";
+//     default:
+//       return "Shoot me now!";
+//   }
+// }
+
+// var output = dayOfWeek("Sat");
+// console.log("output", output);
+
