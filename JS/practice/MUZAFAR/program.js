@@ -787,3 +787,113 @@
 // var output = dayOfWeek("Sat");
 // console.log("output", output);
 
+function submitForm(){
+    let email=document.getElementById("email").value
+    let password=document.getElementById("password").value
+    if(email==="" || password===""){
+        alert("Please fill all the fome")
+    }else{
+        alert("fill the form" +email + password)
+    } 
+    
+}
+
+
+function getCityName() {
+  let cityName;
+  let zipCode = document.getElementById("zip").value;
+  switch (zipCode) {
+    case "60608":
+      cityName = "Chicago";
+      break;
+    case "68114":
+      cityName = "Omaha";
+      break;
+    case "53212":
+      cityName = "Milwaukee";
+      break;
+    default:
+      cityName = "Unknown City";
+  }
+  document.getElementById("city").value = cityName;
+
+}
+
+function addlist(){
+    let addlist="<ul><li>bio</li><li>math</li></ul>";
+    document.getElementById("fav-book").innerHTML = addlist;
+}
+
+
+function imagehide(){
+    let image=document.getElementById("house");
+  image.className="image-hide"
+
+}
+
+function imageShow(){
+    let image=document.getElementById("house");
+    image.className="image-show"
+}
+
+
+function changeColor(id,className) {
+  let heading = document.getElementById(id);
+  heading.className += " "+className;
+}
+
+
+function doubleParaSize() {
+    const parent = document.getElementById("section1");
+    //   div>p
+    var paras = parent.getElementsByTagName("p");
+    for (var i = 0; i < paras.length; i++) {
+      paras[i].style.fontSize = "34px";
+    }
+}
+
+
+
+  function changeCellsColor(Id, color) {
+    let table = document.getElementById(Id);
+    let cells = table.getElementsByTagName("td");
+    for (let i = 0; i < cells.length; i++) {
+      cells[i].style.backgroundColor = color;
+  }
+  }
+
+
+function  stylingDivChilds(){
+    const div=document.getElementById("4")
+    var paraCounter=0;
+    const childNodes=div.childNodes;
+  console.log("🚀 ~ stylingDivChilds ~ childNodes:", childNodes);
+    for(var i = 0; i < childNodes.length; i++) {
+        if(childNodes[i].nodeType == 1) {
+            paraCounter++;
+        }
+        if (paraCounter == 2){
+          childNodes[i].style.backgroundColor = "pink";
+          break;
+        }
+
+
+}
+}
+
+
+// function stylingDivChilds() {
+//   const div = document.getElementById("1");
+//   var paraCounter = 0;
+//   const childNodes = div.childNodes;
+//   console.log("🚀 ~ stylingDivChilds ~ childNodes:", childNodes);
+//   for (var i = 0; i < childNodes.length; i++) {
+//     if (childNodes[i].nodeType == 1) {
+//       paraCounter++;
+//     }
+//     if (paraCounter == 2) {
+//       childNodes[i].style.backgroundColor = "yellow";
+//       break;
+//     }
+//   }
+// }

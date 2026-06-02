@@ -4,9 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muzafar</title>
+    <style>
+  .image-hide{
+    display: none;
+  }
+  .image-show{
+    display: block;
+  }
+.header{
+    background-color:blue;
+}
+.orange{
+    color:orange;
+}
+.purple{
+    color:purple;
+}
+big{
+    font-size: 50px;  
+}
+    </style>
 </head>
 <body>
+    
     <h1>java script</h1>
+    <form action="program.js">
+        <label for="email">Email:</label>
+        <input type="text" id="email" 
+          onfocus="this.style.fontSize='30px';"
+          onblur="this.style.fontSize='16px';"> <br>
+
+         <label for="password">Password:</label>
+        <input type="text" id="password"
+          onfocus="this.style.fontSize='30px';"
+          onblur="this.style.fontSize='16px';"><br>
+
+        
+
+        <label for="zip">Zip Code:</label>
+        <input type="text" name="userZipCode" id="zip" onblur="getCityName()" />
+      </div>
+      <div>
+        <label for="city">City Name:</label>
+        <input type="text" name="userCityName" id="city" readonly />
+      </div>
+        
+    </form>
+     <button type="submit" onclick="return submitForm();">Submit</button> 
+
+    <button onclick="addlist()"> Favorite Book</button>
+    <div id="fav-book"></div>
+
+
+    <img src="https://images.pexels.com/photos/33158968/pexels-photo-33158968.jpeg" 
+    alt="Description of image" width="500" height="300"
+     id="house">
+    <button onclick="imagehide()">Hide Image</button>
+    <button onclick="imageShow()" >Show Image</button>
+  
+
+  <h1
+      id="mainHeading"
+      class="header"
+      onClick="changeColor('mainHeading','orange')"
+    >
+      Week 21 Day 1
+    </h1>
+    <h1
+      id="mainHeading2"
+      class="header"
+      onClick="changeColor('mainHeading2','purple big ')"
+    >
+      Week 21 Day 2
+    </h1>
+
+
+
+    <div style="background-color: rgb(100, 68, 68)" id="section1" onclick="doubleParaSize()">
+
+    <p>
+      Para 1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sed
+      officiis quia aliquam perspiciatis ad quaerat mollitia corrupti magni eum,
+      harum dolor blanditiis recusandae! Quam reprehenderit harum ipsa placeat
+      corrupti.
+    </p>
+
+    <p>
+      Para 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sunt
+      eius animi dicta tenetur dolorum, nulla in! Iste quas omnis temporibus
+      itaque harum id dignissimos illo! Vel nam iure quaerat?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quae
+      commodi neque ea? Culpa optio pariatur eligendi quidem debitis
+      consectetur, quaerat dolore reiciendis laudantium? Delectus ut sequi
+      incidunt et dolor!
+    </p>
+  </div>
+    <table border="1" id="student-table">
+     <h1>student detail</h1>
+      <tr>
+        <td>Name</td>
+        <td>Roll No</td>
+        <td>class</td>
+         <tr>
+        <td>Ali</td>
+        <td>123</td>
+        <td>10th</td>
+      </tr>
+       <tr>
+        <td>N</td>
+        <td>456</td>
+        <td>11th</td>
+      </tr>
+      </tr>
+    
+</table>
+
+  <button onclick='changeCellsColor("student-table","pink")'>
+    Change Cells Color
+  </button>
+
+
+
+  
+  
+  <div style="background-color: red" id="4">
+
+    <p>
+      Para 1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sed
+      officiis quia aliquam perspiciatis ad quaerat mollitia corrupti magni eum,
+      harum dolor blanditiis recusandae! Quam reprehenderit harum ipsa placeat
+      corrupti.
+    </p>
+
+    <p>
+      Para 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sunt
+      eius animi dicta tenetur dolorum, nulla in! Iste quas omnis temporibus
+      itaque harum id dignissimos illo! Vel nam iure quaerat?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quae
+      commodi neque ea? Culpa optio pariatur eligendi quidem debitis
+      consectetur, quaerat dolore reiciendis laudantium? Delectus ut sequi
+      incidunt et dolor!
+    </p>
+  </div>
+
+  <button onclick="stylingDivChilds()">Update</button>
+
+
     <script src="program.js"></script>
    
     
