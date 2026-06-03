@@ -897,3 +897,27 @@ function  stylingDivChilds(){
 //     }
 //   }
 // }
+
+
+function getChildOfDiv(){
+    const parent=document.getElementById("para-div")
+ console.log("🚀 ~ getChildOfDiv ~ parent:", parent.childNodes);  
+ var FirstChild =parent.childNodes[0]
+ var FirstChild =parent.firstChild
+ var secondchild=parent.secondchild
+console.log("firstchild",FirstChild)
+console.log("secondchild",secondchild)}
+
+
+var paraDiv=document.getElementById("para-div")
+var kidNode = document.getElementById("div2");
+var pNode=kidNode.parentNode
+var firstChild = kidNode.firstChild;
+var nextSibling = firstChild.nextSibling;
+var thirdSibling = nextSibling.nextSibling;
+console.log("🚀 ~ firstChild:", firstChild)
+console.log("🚀 ~ firstChild name:", firstChild.nodeValue);
+console.log("🚀 ~ nextSibling:", nextSibling);
+console.log("🚀 ~ thirdSibling:", thirdSibling.previousSibling)
+console.log("🚀 ~ pNode:", pNode)
+
