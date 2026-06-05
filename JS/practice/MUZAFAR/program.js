@@ -920,4 +920,84 @@ console.log("🚀 ~ firstChild name:", firstChild.nodeValue);
 console.log("🚀 ~ nextSibling:", nextSibling);
 console.log("🚀 ~ thirdSibling:", thirdSibling.previousSibling)
 console.log("🚀 ~ pNode:", pNode)
+ 
+
+
+var parentNode = document.getElementById("div2");
+console.log("🚀 ~ parentNode:", parentNode)
+var divChildNodes = parentNode.childNodes;
+for (var i = 0; i < divChildNodes.length; i++) {
+    console.log("childs", divChildNodes[i]);
+    console.log("child nodenames", divChildNodes[i].nodeName);
+
+  if (divChildNodes[i].nodeName.toLowerCase() == "img") {
+    // .src="jfkdjflksdjf"
+    divChildNodes[i].src =
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjDkGmihQuiJ1iZHzQpwJ9JPBO6BnViVmU7Q&s";
+  }
+}
+
+
+
+// function addlist(){
+//   let addlist=document.getElementsByTagName("li")
+//   console.log("addlist",addlist)  
+//   var addlist=addlist.length
+  
+//   for (var i = 0; i < listEementLength; i++) {
+//     if (listElements[i].innerHTML == "") {
+//       listElements[i].innerHTML = "Comming Soon";
+//     }
+//   }
+
+// }
+
+
+
+function addDataInList() {
+  var listElements = document.getElementsByTagName("li");
+  console.log("🚀 ~ addDataInList ~ listElements:", listElements);
+  var listEementLength = listElements.length;
+
+  for (var i = 0; i < listEementLength; i++) {
+    if (listElements[i].innerHTML == "") {
+      listElements[i].innerHTML = "Comming Soon";
+    }
+  }
+}
+
+
+
+// var para=document.getElementById("para")
+// console.log("🚀 ~ para:", para.attributes[0])
+// var hasclassname=para.hasAttribute("class")
+// console.log("🚀 ~ hasclassname:", hasclassname)
+
+
+
+
+
+
+
+
+var para = document.getElementById("para");
+console.log("🚀 ~ para:", para.attributes[0]);
+var hasClassName=para.hasAttribute('class')
+console.log("🚀 ~ hasClassName:", hasClassName)
+var paraClassValue=para.getAttribute('class')
+console.log("🚀 ~ paraClassValue:", paraClassValue)
+para.setAttribute('class','bg-red') // class="bg-red"
+
+if (para.hasAttribute("class")) {
+  console.log("class value", para.getAttribute("class"));
+} else {
+  para.setAttribute("class", "bg-red");
+}
+
+
+
+
+
+
+
 
