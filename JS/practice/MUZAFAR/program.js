@@ -996,38 +996,73 @@
 
 
 
-var plan1={
-    name:"Ali",
-    age:20,
-    city:"Karachi", 
-}
-var plan2={
-    name:"Ahmed",
-    age:25,
-    city:"Lahore",
-}
-var plan3={
-    name:"umar",
-    age:22,
-    city:"Islamabad",
-    buy :function(){
-        console.log("the name of buyer is")
-    }
-}
-console.log("buy", plan3.buy());
+// var plan1={
+//     name:"Ali",
+//     age:20,
+//     city:"Karachi", 
+// }
+// var plan2={
+//     name:"Ahmed",
+//     age:25,
+//     city:"Lahore",
+// }
+// var plan3={
+//     name:"umar",
+//     age:22,
+//     city:"Islamabad",
+//     buy :function(){
+//         console.log("the name of buyer is")
+//     }
+// }
+// console.log("buy", plan3.buy());
 
 
 
 
-var student={
-  name:"Ali",
-  age:20,
-  city:"Karachi",
-  student:function(){
-    console.log("the name of student is",this.name)
-  },
-  cnic:"12345-6789012-3"
-}
+// var student={
+//   name:"Ali",
+//   age:20,
+//   city:"Karachi",
+//   student:function(){
+//     console.log("the name of student is",this.name)
+//   },
+//   cnic:"12345-6789012-3"
+// }
 
-delete student.cnic
-console.log("student",student.cnic)
+// delete student.cnic
+// console.log("student",student.cnic)
+
+
+
+// var plain={
+//     name:"Basic",
+//     price:100,
+//     space:1000,
+//     Data:100,
+//     page:5,
+//     discountmonth:[6,7],
+//     discount:function(discountprize){
+//        var bestprize = this.price;
+//        var currentdate = new Date();
+//        var currentmonth = currentdate.getMonth();
+//          if(this.discountmonth.includes(currentmonth)){
+//             bestprize = this.price * discountprize;
+//     }
+
+//     return bestprize*12
+// }
+// }
+// console.log("the total prize is",plain.discount(0.8))
+
+
+
+var parentnode=document.createElement("p")
+paranode.setAttribute("id","para")
+var textnode=document.createTextNode("this is a new para")
+parentnode.appendChild(textnode)
+
+var parentDiv=document.getElementById("js-div") // <div></div>
+var child=parentDiv.childNodes[2]
+console.log("🚀 ~ firstChild:", child)
+parentDiv.removeChild(child)
+parentDiv.appendChild(paraNode) 
