@@ -1056,13 +1056,49 @@
 
 
 
-var parentnode=document.createElement("p")
-paranode.setAttribute("id","para")
-var textnode=document.createTextNode("this is a new para")
-parentnode.appendChild(textnode)
+// var parentnode=document.createElement("p")
+// paranode.setAttribute("id","para")
+// var textnode=document.createTextNode("this is a new para")
+// parentnode.appendChild(textnode)
 
-var parentDiv=document.getElementById("js-div") // <div></div>
-var child=parentDiv.childNodes[2]
-console.log("🚀 ~ firstChild:", child)
-parentDiv.removeChild(child)
-parentDiv.appendChild(paraNode) 
+// var parentDiv=document.getElementById("js-div") // <div></div>
+// var child=parentDiv.childNodes[2]
+// console.log("🚀 ~ firstChild:", child)
+// parentDiv.removeChild(child)
+// parentDiv.appendChild(paraNode) 
+
+
+
+// var student = {
+//   name: "John Doe",
+//   roll: "123",
+//   key:"13",
+// };
+
+// var listProperties=[]
+
+// for(var key in student){
+//     console.log("key",key)
+//     listProperties.push(key)
+//     console.log(student[key])// student['name'] ----> student.'name' X
+// }
+// console.log("list of properties:", listProperties)
+
+// var listProperties = Object.keys(student);
+// console.log("list",listProperties)
+
+
+
+
+console.log("window href", window.location.href);
+console.log("window hostname", window.location.hostname);
+console.log("window pathname    ", window.location.pathname);
+
+
+
+function updateContent(link){
+window.location.href=(link)
+window.location.assign(link)
+window.location.href="https://www.youtube.com/"
+window.location.assign("https://www.youtube.com/")
+}
